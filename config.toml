@@ -1,0 +1,9 @@
+baseURL = 'https://jwl0510.github.io/'
+languageCode = 'en-us'
+theme = 'hello-friend-ng'
+enableEmoji = true
+
+[params] 
+title = "JWL's Blog"
+author = "jwl0510"
+description = "Blogger grom GH"
