@@ -1,5 +1,5 @@
 baseURL = "https://jwl0510.github.io"
-title   = "Hello Friend NG"
+title   = "JELLY"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "S4NTA"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Blessed is he who expects nothing, for he shall not be disappointed"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -112,13 +112,12 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = true
     rss = true
-    copyright = true
+    copyright = false
     author = true
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      "Made with &#10084; by <a href=\"https://github.com/S4NTADAY\">S4NTA</a>"
     ]
 
   # Colors for favicons
@@ -160,33 +159,28 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    #url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    #url  = "mailto:nobody@example.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    #url  = "https://github.com/"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    #url  = "https://www.linkedin.com/"
 
   [[params.social]]
     name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    #url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
     subtitle  = "Hello Friend NG Theme"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
