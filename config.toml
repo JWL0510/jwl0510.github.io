@@ -7,7 +7,7 @@ paginate     = 10
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-  enableThemeToggle = true
+enableThemeToggle = false
 
 [params]
   dateform        = "Jan 2, 2006"
